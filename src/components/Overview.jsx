@@ -15,7 +15,7 @@ const Overview = () => {
           </div>
           <div className="flex justify-between gap-4">
             <div className="w-1/2 mb-4">
-              <div className="bg-base-100 shadow-md">
+              <div className="bg-base-100 shadow-sm">
                 <div className="card-body p-4">
                   <p className="text-base sm:text-lg font-normal">Online orders</p>
                   <h2 className="font-semibold text-base sm:text-3xl">231</h2>
@@ -23,7 +23,7 @@ const Overview = () => {
               </div>
             </div>
             <div className="w-1/2 mb-4">
-              <div className="bg-base-100 shadow-md">
+              <div className="bg-base-100 shadow-sm">
                 <div className="card-body p-4">
                   <p className="text-base sm:text-lg font-normal">Amount received</p>
                   <h2 className="font-semibold text-base sm:text-3xl">₹23,92,312.19</h2>

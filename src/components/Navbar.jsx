@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <div className="grow">
-    <nav className='bg-white flex w-full items-center px-8 py-3 space-x-4 sticky top-0 z-10 shadow-gray-300 shadow-md'>
+    <nav className='bg-white flex w-full items-center px-8 py-3 space-x-4 sticky top-0 z-10 shadow-gray-300 shadow-sm'>
         <p className="font-semibold">Payments</p>
         <aside className='flex items-center space-x-2.5 grow'>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
