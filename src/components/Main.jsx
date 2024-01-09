@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import Overview from './Overview';
-import Transactions from './TransActions';
+import Transaction from './Transaction';
 
 const Main = () => {
   return (
@@ -8,7 +8,7 @@ const Main = () => {
       <Navbar />
       <div className='px-4 py-6'>
         <Overview />
-        <Transactions />
+        <Transaction />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import Table from "./Table";
 
-const Transactions = () => {
+export default function Transaction () {
   return (
     <div className="grow">
       <div className="w-full px-8 py-3 sticky top-0 z-10 items-center justify-between">
@@ -11,6 +11,5 @@ const Transactions = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Transactions;
